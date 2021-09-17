@@ -1,5 +1,5 @@
 {
-  "name": "package_name",
+  "name": "dorestarta",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -18,15 +18,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ty4ka/package_name.git"
+    "url": "git+https://github.com/Ty4ka/dorestarta.git"
   },
-  "keywords": ["proccess"],
+  "keywords": [
+    "proccess"
+  ],
   "author": "Dmitrii Osipovich",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ty4ka/package_name/issues"
+    "url": "https://github.com/Ty4ka/dorestarta/issues"
   },
-  "homepage": "https://github.com/Ty4ka/package_name#readme",
+  "homepage": "https://github.com/Ty4ka/dorestarta#readme",
   "devDependencies": {
     "@types/node": "^16.9.2",
     "prettier": "^2.4.1",
@@ -36,5 +38,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "is-running-process": "^1.0.0",
+    "time-helpers": "^1.0.0"
+  }
 }
